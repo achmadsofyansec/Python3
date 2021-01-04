@@ -28,7 +28,7 @@ if user_select == 1:
 elif user_select == 2:
    angka1 = int(input("Masukkan angka pertama : "))
    angka2 = int(input("Masukkan angka kedua : "))
-   hasil  = (angka1 + angka2)
+   hasil  = (angka1 - angka2)
    print("Hasil pengurangan dari", angka1, "-", angka2, "=", hasil)
 elif user_select == 3:
    angka1 = int(input("Masukkan angka pertama : "))
